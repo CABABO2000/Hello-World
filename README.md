@@ -1,25 +1,15 @@
 
-Installation information
+Hello World | NeoForge
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This is a simple barebones mod made for 1.21.4 and NeoForge that prints "Hello World!" to the console upon initilalization of the game.
+The code can be found in HelloWorld.java in a method titled commonSetup. The output can be found near the end of initialization in the console.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
+Credits:
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+NeoForge Template Generator (Created all parts needed for the mod to function):
+https://neoforged.net/mod-generator/
+Neoforge Documentation:
+https://docs.neoforged.net/docs/gettingstarted/
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+NOTE: A jar file for the mod can be found in build/libs/. If the jar doesn't work, you can either build the code yourself in an IDE, or contact me to let me know.
