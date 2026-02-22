@@ -1,0 +1,13 @@
+{
+  "itemGroup.helloworld": "Example Mod Tab",
+  "block.helloworld.example_block": "Example Block",
+  "item.helloworld.example_item": "Example Item",
+
+  "helloworld.configuration.title": "Hello World Configs",
+  "helloworld.configuration.section.helloworld.common.toml": "Hello World Configs",
+  "helloworld.configuration.section.helloworld.common.toml.title": "Hello World Configs",
+  "helloworld.configuration.items": "Item List",
+  "helloworld.configuration.logDirtBlock": "Log Dirt Block",
+  "helloworld.configuration.magicNumberIntroduction": "Magic Number Text",
+  "helloworld.configuration.magicNumber": "Magic Number"
+}
