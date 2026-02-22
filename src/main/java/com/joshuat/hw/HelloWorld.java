@@ -89,16 +89,10 @@ public class HelloWorld {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-        }
-
-        LOGGER.info("{}{}", Config.MAGIC_NUMBER_INTRODUCTION.get(), Config.MAGIC_NUMBER.getAsInt());
-
-        Config.ITEM_STRINGS.get().forEach((item) -> LOGGER.info("ITEM >> {}", item));
+        // Here it prints "Hello World!"
+        System.out.println("Hello World!");
+        // Alternative version using the logger (I don't know exactly what the logger is, I just see it everywhere in this file)
+        // LOGGER.info("HELLO from server starting");
     }
 
     // Add the example block item to the building blocks tab
